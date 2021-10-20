@@ -22,8 +22,8 @@ def full_name(str_arg:str)->str:
     avec la première lettre seulement en majuscule..
     
     """
-    prenom="" #prenom
-    nom="" #nom
+    prenom="" 
+    nom=""
     chaine=str_arg.split(" ")
     chaine[0]=chaine[0].upper()
     chaine[1]=chaine[1].capitalize()
@@ -125,7 +125,7 @@ print(finit_par(mot, "iste"))
 print(finit_par("test", "test"))
 lst_mot=["jouer","bonjour", "punir", "jour", "aurevoir", "revoir", "pouvoir", "cour", "abajour", 
 "finir", "aimer"]
-#print(finissent_par(lst_mot,"ir"))
-#print(commencent_par(lst_mot, "au"))
+print(finissent_par(lst_mot,"ir"))
+print(commencent_par(lst_mot, "au"))
 print(liste_mots(lst_mot, "ai", "ir", 5))
 dictionnaire("littre.txt")
